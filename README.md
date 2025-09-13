@@ -1,11 +1,11 @@
 # Background Remover Web Application
 
-![React](https://img.shields.io/badge/React-18+-blue.svg)
-![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue.svg)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3+-blue.svg)
-![Vite](https://img.shields.io/badge/Vite-Latest-blue.svg)
+![React](https://img.shields.io/badge/React-19.1.1-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue.svg)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.13-blue.svg)
+![Vite](https://img.shields.io/badge/Vite-7.1.2-blue.svg)
 
-A modern web application that allows users to upload images and automatically remove backgrounds using the remove.bg API. Built with React, TypeScript, and Tailwind CSS for a seamless user experience.
+A modern web application that allows users to upload images and automatically remove backgrounds using the remove.bg API. Built with React 19.1.1, TypeScript 5.8.3, and Tailwind CSS 4.1.13 for a seamless user experience.
 
 ## ✨ Features
 
@@ -23,7 +23,7 @@ A modern web application that allows users to upload images and automatically re
 ### Prerequisites
 
 - Node.js 18+ installed on your system
-- A remove.bg API key (get one free at [remove.bg](https://www.remove.bg/api/api))
+- A remove.bg API key (get one free at [remove.bg](https://www.remove.bg/api))
 
 ### Installation
 
@@ -73,12 +73,12 @@ A modern web application that allows users to upload images and automatically re
 
 ### Technology Stack
 
-- **Frontend**: React 18+ with TypeScript
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS
-- **State Management**: React Context API
-- **File Handling**: react-dropzone
-- **Icons**: Lucide React
+- **Frontend**: React 19.1.1 with TypeScript 5.8.3
+- **Build Tool**: Vite 7.1.2
+- **Styling**: Tailwind CSS 4.1.13
+- **State Management**: React Context API with useReducer
+- **File Handling**: react-dropzone 14.3.8
+- **Icons**: Lucide React 0.544.0
 - **API Integration**: remove.bg REST API
 
 ### Project Structure
@@ -98,17 +98,23 @@ src/
 │   └── backgroundRemovalService.ts # API integration
 ├── types/
 │   └── index.ts          # TypeScript type definitions
+├── assets/              # Static assets
+├── App.css              # Global styles
 ├── App.tsx              # Main app component
-└── main.tsx             # App entry point
+├── index.css            # Base styles
+├── main.tsx             # App entry point
+└── vite-env.d.ts        # Vite type definitions
 ```
 
 ### Key Features Implementation
 
 - **State Management**: Uses React Context with useReducer for predictable state updates
-- **File Validation**: Client-side validation for file type and size
-- **Error Handling**: Comprehensive error categorization and user feedback
-- **Progress Tracking**: Real-time progress updates during processing
+- **File Validation**: Client-side validation for file type and size (JPEG, PNG, WEBP, max 12MB)
+- **Error Handling**: Comprehensive error categorization and user feedback with ErrorAlert component
+- **Progress Tracking**: Real-time progress updates during processing with visual indicators
 - **Memory Management**: Proper cleanup of object URLs to prevent memory leaks
+- **Responsive Design**: Mobile-first design with Tailwind CSS utilities
+- **Modern UI**: Glass-morphism effects and smooth animations for enhanced user experience
 
 ## 🔧 Configuration
 
@@ -123,6 +129,13 @@ The application supports various remove.bg API options:
 ### Environment Variables
 
 No environment variables required. The API key is stored securely in the browser's localStorage.
+
+### Development Configuration
+
+- **TypeScript**: Strict mode enabled with comprehensive type checking
+- **ESLint**: Configured with React and TypeScript rules
+- **Vite**: Optimized for fast development and production builds
+- **PostCSS**: Integrated with Tailwind CSS for utility-first styling
 
 ## 🚀 Building for Production
 
@@ -142,6 +155,8 @@ The built files will be in the `dist` directory, ready for deployment to any sta
 - Firefox 88+
 - Safari 14+
 - Edge 90+
+
+*Note: Modern browsers with ES2020+ support required for optimal performance.*
 
 ## 🔒 Privacy & Security
 
