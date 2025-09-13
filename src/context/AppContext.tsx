@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useReducer } from 'react';
+import { createContext, useContext, useReducer } from 'react';
 import type { ReactNode } from 'react';
 import type { AppContextType, ImageData, ProcessingState, AppSettings, ApiError } from '../types/index.js';
 import { BackgroundRemovalService } from '../services/backgroundRemovalService';

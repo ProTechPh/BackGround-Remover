@@ -14,7 +14,7 @@ export function ImageUploader() {
   const { actions } = useApp();
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
-  const [dragDepth, setDragDepth] = useState(0);
+  const [, setDragDepth] = useState(0);
 
   const onDrop = useCallback((acceptedFiles: File[], rejectedFiles: any[]) => {
     if (rejectedFiles.length > 0) {

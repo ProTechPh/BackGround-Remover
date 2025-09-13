@@ -1,4 +1,4 @@
-import { useApp } from '../context/AppContext';
+
 import { Scissors, Sparkles, Zap } from 'lucide-react';
 
 export function Header() {
