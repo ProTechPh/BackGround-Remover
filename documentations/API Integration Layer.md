@@ -1,14 +1,5 @@
 # API Integration Layer
 
-<cite>
-**Referenced Files in This Document**   
-- [backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-- [index.ts](../../src/types/index.ts)
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [.env.example](../../.env.example)
-- [vite.config.ts](../../vite.config.ts)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Core Functionality](#core-functionality)

@@ -1,15 +1,5 @@
 # Type System
 
-<cite>
-**Referenced Files in This Document**   
-- [index.ts](../../src/types/index.ts)
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-- [ImageProcessor.tsx](../../src/components/ImageProcessor.tsx)
-- [ImageUploader.tsx](../../src/components/ImageUploader.tsx)
-- [ErrorAlert.tsx](../../src/components/ErrorAlert.tsx)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Core Type Definitions](#core-type-definitions)

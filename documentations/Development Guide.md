@@ -1,17 +1,5 @@
 # Development Guide
 
-<cite>
-**Referenced Files in This Document**   
-- [package.json](../../package.json)
-- [README.md](../../README.md)
-- [eslint.config.js](../../eslint.config.js)
-- [vite.config.ts](../../vite.config.ts)
-- [backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [index.ts](../../src/types/index.ts)
-- [ErrorAlert.tsx](../../src/components/ErrorAlert.tsx)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Setup Instructions](#setup-instructions)

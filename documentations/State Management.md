@@ -1,16 +1,5 @@
 # State Management
 
-<cite>
-**Referenced Files in This Document**   
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [index.ts](../../src/types/index.ts)
-- [backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-- [ImageUploader.tsx](../../src/components/ImageUploader.tsx)
-- [ImageProcessor.tsx](../../src/components/ImageProcessor.tsx)
-- [ImageGallery.tsx](../../src/components/ImageGallery.tsx)
-- [App.tsx](../../src/App.tsx)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [AppState Interface and Centralized State](#appstate-interface-and-centralized-state)

@@ -1,18 +1,5 @@
 # Technology Stack & Dependencies
 
-<cite>
-**Referenced Files in This Document**   
-- [package.json](../../package.json)
-- [vite.config.ts](../../vite.config.ts)
-- [tsconfig.json](../../tsconfig.json)
-- [tsconfig.app.json](../../tsconfig.app.json)
-- [postcss.config.js](../../postcss.config.js)
-- [eslint.config.js](../../eslint.config.js)
-- [src/components/ImageUploader.tsx](../../src/components/ImageUploader.tsx)
-- [src/services/backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-- [src/types/index.ts](../../src/types/index.ts)
-</cite>
-
 ## Table of Contents
 1. [Core Dependencies Overview](#core-dependencies-overview)
 2. [Frontend Framework: React 19.1.1](#frontend-framework-react-1911)

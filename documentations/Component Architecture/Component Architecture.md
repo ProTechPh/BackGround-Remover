@@ -1,19 +1,5 @@
 # Component Architecture
 
-<cite>
-**Referenced Files in This Document**   
-- [App.tsx](../../src/App.tsx)
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [ImageUploader.tsx](../../src/components/ImageUploader.tsx)
-- [ImageProcessor.tsx](../../src/components/ImageProcessor.tsx)
-- [ImageGallery.tsx](../../src/components/ImageGallery.tsx)
-- [ErrorAlert.tsx](../../src/components/ErrorAlert.tsx)
-- [Header.tsx](../../src/components/Header.tsx)
-- [Footer.tsx](../../src/components/Footer.tsx)
-- [index.ts](../../src/types/index.ts)
-- [backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-</cite>
-
 ## Table of Contents
 1. [Container-Component Pattern Overview](#container-component-pattern-overview)
 2. [Component Breakdown](#component-breakdown)

@@ -1,19 +1,5 @@
 # Configuration
 
-<cite>
-**Referenced Files in This Document**   
-- [vite.config.ts](../../vite.config.ts)
-- [tsconfig.json](../../tsconfig.json)
-- [tsconfig.app.json](../../tsconfig.app.json)
-- [tsconfig.node.json](../../tsconfig.node.json)
-- [postcss.config.js](../../postcss.config.js)
-- [eslint.config.js](../../eslint.config.js)
-- [package.json](../../package.json)
-- [src/services/backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-- [.env.example](../../.env.example)
-- [README.md](../../README.md)
-</cite>
-
 ## Table of Contents
 1. [Environment Variables](#environment-variables)
 2. [Vite Configuration](#vite-configuration)

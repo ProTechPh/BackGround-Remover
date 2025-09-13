@@ -1,13 +1,5 @@
 # Header and Footer Components
 
-<cite>
-**Referenced Files in This Document**   
-- [Header.tsx](../../src/components/Header.tsx)
-- [Footer.tsx](../../src/components/Footer.tsx)
-- [App.tsx](../../src/App.tsx)
-- [index.css](../../src/index.css)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Header Component](#header-component)

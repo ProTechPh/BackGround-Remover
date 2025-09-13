@@ -1,18 +1,5 @@
 # User Workflow
 
-<cite>
-**Referenced Files in This Document**   
-- [ImageUploader.tsx](../../src/components/ImageUploader.tsx)
-- [ImageProcessor.tsx](../../src/components/ImageProcessor.tsx)
-- [ImageGallery.tsx](../../src/components/ImageGallery.tsx)
-- [ErrorAlert.tsx](../../src/components/ErrorAlert.tsx)
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-- [App.tsx](../../src/App.tsx)
-- [index.ts](../../src/types/index.ts)
-- [README.md](../../README.md)
-</cite>
-
 ## Table of Contents
 1. [Landing Page and Initial State](#landing-page-and-initial-state)
 2. [Image Upload Process](#image-upload-process)

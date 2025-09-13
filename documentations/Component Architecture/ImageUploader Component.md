@@ -1,14 +1,5 @@
 # ImageUploader Component
 
-<cite>
-**Referenced Files in This Document**   
-- [ImageUploader.tsx](../../src/components/ImageUploader.tsx)
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [index.ts](../../src/types/index.ts)
-- [App.css](../../src/App.css)
-- [index.css](../../src/index.css)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Core Implementation](#core-implementation)

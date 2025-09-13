@@ -1,13 +1,5 @@
 # ImageGallery Component
 
-<cite>
-**Referenced Files in This Document**   
-- [ImageGallery.tsx](../../src/components/ImageGallery.tsx)
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-- [index.ts](../../src/types/index.ts)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Core Functionality](#core-functionality)

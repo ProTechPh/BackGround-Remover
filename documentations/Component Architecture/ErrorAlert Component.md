@@ -1,13 +1,5 @@
 # ErrorAlert Component
 
-<cite>
-**Referenced Files in This Document**   
-- [ErrorAlert.tsx](../../src/components/ErrorAlert.tsx)
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [index.ts](../../src/types/index.ts)
-- [backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Core Functionality](#core-functionality)

@@ -1,17 +1,5 @@
 # Project Overview
 
-<cite>
-**Referenced Files in This Document**   
-- [README.md](../../README.md)
-- [App.tsx](../../src/App.tsx)
-- [AppContext.tsx](../../src/context/AppContext.tsx)
-- [backgroundRemovalService.ts](../../src/services/backgroundRemovalService.ts)
-- [ImageUploader.tsx](../../src/components/ImageUploader.tsx)
-- [ImageProcessor.tsx](../../src/components/ImageProcessor.tsx)
-- [ImageGallery.tsx](../../src/components/ImageGallery.tsx)
-- [types/index.ts](../../src/types/index.ts)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Purpose and Use Cases](#purpose-and-use-cases)

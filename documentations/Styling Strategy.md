@@ -1,16 +1,5 @@
 # Styling Strategy
 
-<cite>
-**Referenced Files in This Document**   
-- [tailwind.config.js](../../tailwind.config.js)
-- [postcss.config.js](../../postcss.config.js)
-- [src/index.css](../../src/index.css)
-- [src/components/Header.tsx](../../src/components/Header.tsx)
-- [src/components/ImageUploader.tsx](../../src/components/ImageUploader.tsx)
-- [src/App.tsx](../../src/App.tsx)
-- [src/components/ImageGallery.tsx](../../src/components/ImageGallery.tsx)
-</cite>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Utility-First Approach](#utility-first-approach)
