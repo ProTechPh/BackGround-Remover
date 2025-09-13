@@ -24,6 +24,7 @@ A modern web application that allows users to upload images and automatically re
 
 - Node.js 18+ installed on your system
 - A remove.bg API key (get one free at [remove.bg](https://www.remove.bg/api))
+- Basic understanding of environment variables
 
 ### Installation
 
@@ -32,12 +33,18 @@ A modern web application that allows users to upload images and automatically re
    npm install
    ```
 
-2. **Start the development server**
+2. **Configure environment variables**
+   Create a `.env` file in the root directory:
+   ```bash
+   VITE_REMOVE_BG_API_KEY=your_api_key_here
+   ```
+   
+3. **Start the development server**
    ```bash
    npm run dev
    ```
 
-3. **Open your browser**
+4. **Open your browser**
    Navigate to `http://localhost:5173`
 
 ## 🔑 API Key Setup
@@ -47,10 +54,11 @@ A modern web application that allows users to upload images and automatically re
    - Sign up for a free account
    - Get your API key from the dashboard
 
-2. **Add API key to the application**:
-   - Open the application in your browser
-   - Look for the "Enter remove.bg API key" field in the header
-   - Paste your API key (it will be saved locally)
+2. **Configure the API key**:
+   - Create a `.env` file in the project root directory
+   - Add your API key: `VITE_REMOVE_BG_API_KEY=your_actual_api_key`
+   - The API key will be securely integrated into the application
+   - **Never commit the `.env` file to version control**
 
 ## 📖 How to Use
 
@@ -60,8 +68,7 @@ A modern web application that allows users to upload images and automatically re
    - Supported formats: JPEG, PNG, WEBP (max 12MB)
 
 2. **Process the Image**:
-   - Enter your remove.bg API key if not already done
-   - Click "Remove Background" to start processing
+   - Click "Remove Background" to start processing (API key is pre-configured)
    - Wait for the AI to process your image
 
 3. **Download Result**:
@@ -128,7 +135,16 @@ The application supports various remove.bg API options:
 
 ### Environment Variables
 
-No environment variables required. The API key is stored securely in the browser's localStorage.
+The application requires the following environment variables:
+
+- `VITE_REMOVE_BG_API_KEY`: Your remove.bg API key (required for background removal functionality)
+
+Create a `.env` file in the project root:
+```bash
+VITE_REMOVE_BG_API_KEY=your_api_key_here
+```
+
+**Security Note**: Never commit your `.env` file to version control. Add `.env` to your `.gitignore` file.
 
 ### Development Configuration
 
@@ -136,6 +152,23 @@ No environment variables required. The API key is stored securely in the browser
 - **ESLint**: Configured with React and TypeScript rules
 - **Vite**: Optimized for fast development and production builds
 - **PostCSS**: Integrated with Tailwind CSS for utility-first styling
+- **Environment Variables**: Vite automatically loads `.env` files with `VITE_` prefix
+
+### Important Files
+
+Ensure your `.gitignore` includes:
+```
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+```
 
 ## 🚀 Building for Production
 
@@ -161,16 +194,19 @@ The built files will be in the `dist` directory, ready for deployment to any sta
 ## 🔒 Privacy & Security
 
 - **No Server Storage**: Images are processed directly through the remove.bg API
-- **Local API Key Storage**: API keys are stored locally in your browser
+- **Environment-based API Key**: API keys are securely stored in environment variables, not exposed in the client
 - **No Data Tracking**: No user data is collected or tracked
 - **Secure Processing**: All processing happens via HTTPS
+- **Client-side Processing**: No server-side storage or processing of images
 
 ## 🐛 Troubleshooting
 
 ### Common Issues
 
 1. **"Invalid API Key" Error**
-   - Verify your API key is correct
+   - Verify your API key is correct in the `.env` file
+   - Ensure the environment variable name is exactly `VITE_REMOVE_BG_API_KEY`
+   - Restart the development server after modifying the `.env` file
    - Check that you have remaining credits on your remove.bg account
 
 2. **"File Too Large" Error**
@@ -189,7 +225,10 @@ The built files will be in the `dist` directory, ready for deployment to any sta
 ### Getting Help
 
 - Check the browser console for detailed error messages
-- Verify your remove.bg API key and account status
+- Verify your remove.bg API key in the `.env` file
+- Ensure the `.env` file is in the project root directory
+- Restart the development server after changing environment variables
+- Verify your remove.bg account status and remaining credits
 - Ensure you have a stable internet connection
 
 ## 📄 License
