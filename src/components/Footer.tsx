@@ -54,7 +54,7 @@ export function Footer() {
                 <span>remove.bg API</span>
               </a>
               <a 
-                href="https://github.com" 
+                href="https://github.com/ProTechPh/BackGround-Remover" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-sm text-neutral-600 hover:text-primary-600 transition-colors group"
