@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { AppProvider } from './context/AppContext';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
@@ -110,6 +111,7 @@ function App() {
   return (
     <AppProvider>
       <AppContent />
+      <Analytics />
     </AppProvider>
   );
 }
