@@ -1,0 +1,49 @@
+/* Modern custom styles for enhanced components */
+
+/* Reverse animation direction */
+.animation-direction-reverse {
+  animation-direction: reverse;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove focus outline on custom buttons but keep accessibility */
+button:focus-visible {
+  outline: 2px solid var(--primary-500);
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--neutral-100);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neutral-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neutral-400);
+}
+
+/* Improved selection colors */
+::selection {
+  background-color: var(--primary-100);
+  color: var(--primary-900);
+}
+
+/* Enhanced focus states for better accessibility */
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  border-color: var(--primary-500);
+}
